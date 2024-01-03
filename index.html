@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramanan Yu</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            font-family: 'Croissant One', serif;
+        }
+
+        #title {
+            background-image: url(./assests/Where-Are-The-Himalayan-Mountains-Located.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+
+
+        }
+
+
+
+        #title .container .row {
+            text-align: center;
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: center;
+
+        }
+
+
+        #title .container .row>p {
+            /* background-color: greenyellow; */
+            /* display: inline; */
+            width: fit-content;
+            color: gold;
+            padding-top: 1.39rem;
+            font-size: 2rem;
+        }
+
+        #title .container .row>h1 {
+            /* background-color: orange; */
+            display: inline;
+            width: fit-content;
+            color: yellow;
+            font-size: 3.8rem;
+        }
+
+        #title .container .row div p {
+            /* background-color: red; */
+            color: gold;
+            font-size: 2rem;
+            padding-right: 4.9rem;
+        }
+
+        #title .container .row div p span {
+            text-decoration: underline;
+        }
+
+        /* Hero */
+        #hero {
+            /* background-color: #00b4d849;  */
+            height: fit-content;
+        }
+
+        #hero>div img {
+            border-radius: 100%;
+            /* border: 2px solid black; */
+            height: 300px;
+            /* padding-bottom: 20px; */
+
+        }
+
+        .text-body-emphasis {
+            --bs-text-opacity: 1;
+            color: #00B4D8 !important;
+            padding: 50px 0px 40px 0px;
+            margin: 0;
+        }
+
+        #hero div .container p {
+            font-family: 'Roboto Serif', serif;
+
+        }
+
+
+        /* Skills */
+        #skills {
+            height: fit-content;
+            /* background-color: yellow; */
+            text-align: center;
+            color: #0591ad !important;
+            margin-top: 100px;
+        }
+
+        #skills>h1 {
+            /* background-color: yellow; */
+            padding-bottom: 50px;
+            color: #00B4D8 !important;
+
+        }
+
+        #skills .parent {
+            display: grid;
+            height: fit-content;
+            grid-template-rows: 1fr 0.7fr 1fr;
+            grid-template-columns: 44% 56%;
+            /* border: 1px solid black; */
+            gap: 10px;
+            row-gap: 50px;
+
+        }
+
+
+
+
+        .txt {
+            /* background-color: yellow; */
+            width: 60%;
+        }
+
+        .txt h6 {
+            font-size: 1.5rem;
+            text-align: left;
+            /* font-weight: bold; */
+        }
+
+        .txt p {
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', serif;
+            color: #212529;
+        }
+
+        .sidev img {
+            height: 200px;
+            border-radius: 15%;
+
+        }
+
+        .nose img {
+            height: 300px;
+            border-radius: 50%;
+        }
+
+
+
+        /* Contact me */
+
+        #contact {
+            height: fit-content;
+            display: block;
+        }
+
+        #contact .bg-body-tertiary {
+            --bs-bg-opacity: 0;
+            background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+        }
+
+
+        #contact div div div h6 {
+            font-size: 1.5rem;
+
+        }
+
+        #contact div div div p {
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', serif;
+            color: #212529;
+
+        }
+
+        #contact .btn {
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', serif;
+            font-size: 1.5rem;
+        }
+
+        .btn svg {
+            /* padding: 0px 2px; */
+            margin: 0px 10px 3px 5px;
+            /* height: 25px; */
+            width: auto;
+        }
+
+
+
+        .btn-primary {
+            --bs-btn-color: #fff;
+            --bs-btn-bg: #00B4D8;
+            --bs-btn-border-color: #00B4D8;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #00B4D8;
+            --bs-btn-hover-border-color: #00B4D8;
+            --bs-btn-focus-shadow-rgb: 49, 132, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #00B4D8;
+            --bs-btn-active-border-color: #00B4D8;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #fff;
+            --bs-btn-disabled-bg: #00B4D8;
+            --bs-btn-disabled-border-color: #00B4D8;
+        }
+
+
+
+        /* footer */
+        #footer {
+            display: block;
+            height: fit-content;
+            background-color: #5ddef8d0;
+            
+        }
+
+        .nav {
+            --bs-nav-link-padding-x: 1rem;
+            --bs-nav-link-padding-y: 0.5rem;
+            --bs-nav-link-font-weight: ;
+            --bs-nav-link-color: #00B4D8;
+            --bs-nav-link-hover-color: #00B4D8;
+            --bs-nav-link-disabled-color: #00B4D8;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+
+        .text-body-secondary {
+            --bs-text-opacity: 1;
+            color: #00B4D8 !important;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', serif;
+            font-weight: bold;
+        }
+
+        #footer footer p{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+
+<body>
+    <!-- Title -->
+    <section id="title">
+        <!-- <img src="./assests/Where-Are-The-Himalayan-Mountains-Located.webp" alt="himalayan-background" width="100%"> -->
+        <div class="container">
+            <div class="row pt-5">
+                <p>I'm</p>
+                <h1>Ramanan Yu</h1>
+                <div>
+                    <p>a <span>pro</span>grammer</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="gradient">
+        <!-- Hero -->
+        <section id="hero">
+            <div class="p-5 text-center ">
+                <div class="container py-5">
+                    <div><img src="./assests/Front-view.jpeg" alt=""></div>
+                    <h1 class="text-body-emphasis">Ramanan Dhakkshinamoorthy</h1>
+                    <p class="col-lg-8 mx-auto lead">
+                        I am a student at Bharati Vidyapeeth College. I am 18 years old and in First year of my
+                        Graduation.
+                        I love programming and Teaching&#10084;
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h1>Skills</h1>
+            <div class="container">
+                <div class="parent">
+                    <div class="nose">
+                        <img src="./assests/Nose-scratch.jpeg" alt="My-candid">
+
+                    </div>
+                    <div class="txt">
+                        <h6>Design and Programming</h6>
+                        <p>I started learning to code when I was 16 years old because I wanted to make my own video
+                            games. Over time, I have gained a wealth of experience designing and developing web
+                            applications.</p>
+                    </div>
+
+                    <div class="sidev">
+                        <img src="./assests/Side-eye-me.jpeg" alt="Me-Gaming">
+                    </div>
+                    <div class="txt">
+                        <h6>Gaming</h6>
+                        <p>Since I love creating games. I have a hobby of playing games too. I am very big fan of open
+                            world games like GTA, RRDR2, etc</p>
+                    </div>
+
+                    <div class="cat-typing">
+                        <img src="./assests/cat-typing.gif" alt="Me-coding">
+                    </div>
+                    <div class="txt">
+                        <h6>Typing Speed</h6>
+                        <p>But my best skill is actully typing fast. I can reach upto 60 wpm. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section id="contact">
+            <div class="mt-5">
+                <div class=" text-center bg-body-tertiary">
+                    <div class="container pb-5">
+                        <h1 class="text-body-emphasis">Get in Touch</h1>
+                        <h6>If you want to challenge me</h6>
+                        <p class="col-lg-8 mx-auto lead">
+                            Wanna challenge me in a typing competition? Let's see who wins! After that we can do some
+                            gaming too!
+                        </p>
+                        <button class="btn btn-lg btn-primary my-5"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
+                                height="20px" fill="currentColor" class="bi bi-telephone-forward-fill"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708" />
+                            </svg>Contact me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Footer -->
+    <section id="footer">
+        <footer class="py-5 ">
+            <ul class="nav justify-content-center  mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Instagram</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Twitter</a></li>
+                
+            </ul>
+            <p class="text-center ">© Ramanan Dhakkshinamoorthi</p>
+        </footer>
+    </section>
+
+</body>
+
+</html>
